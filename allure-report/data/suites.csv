@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","4244","login","chromium","2026-10-09","passed","2026-10-09","","tclogin.spec.js","",""
+"","7681","tcregister","chrome","2026-10-09","passed","2026-10-09","","tcRegister.spec.js","",""
+"","4846","login@sanity","chrome","2026-10-09","passed","2026-10-09","tc common test","tcCommon.spec.js","",""
+"","4256","login","chrome","2026-10-09","passed","2026-10-09","","tclogin.spec.js","",""
+"","10315","@smoketcregister","chrome","2026-10-09","passed","2026-10-09","tc common test","tcCommon.spec.js","",""
