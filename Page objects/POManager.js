@@ -1,4 +1,4 @@
-import { HomePage } from "./homepage"
+import { HomePage } from "./HomePage"
 import { LoginPage } from "./LoginPage"
 import { RegistrationPage } from "./RegistrationPage"
 

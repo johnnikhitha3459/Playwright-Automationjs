@@ -31,7 +31,7 @@ test('tcregister', async ({ page }) => {
 
     const registerpage = pomanager.getRegistrationPage()
     await registerpage.registeruser('shannu', 'mary', 'stuttgart', 'germany', 'usa',
-        '1234567', '91234567', '0109090','princy','abcd')
+        '1234567', '91234567', '0109090','becky','abcd')
 
         await registerpage.ClickonRegisterbutton()
         await expect(page).toHaveURL('https://parabank.parasoft.com/parabank/register.htm')
