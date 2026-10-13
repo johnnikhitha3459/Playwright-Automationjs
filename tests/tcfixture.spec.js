@@ -1,7 +1,7 @@
 import { POManager } from '../Page objects/POManager'
 import { customtest as test, expect } from '../fixtures/testfixture'
 
-test('tcregister', async ({ page, testdataforregistration }) => {
+test('tcregister', async ({ page, testdataForregistration }) => {
 
     const pomanager = new POManager(page)
     const homepage = pomanager.getHomePage()
@@ -12,17 +12,17 @@ test('tcregister', async ({ page, testdataforregistration }) => {
     const registerpage = pomanager.getRegistrationPage()
 
     await registerpage.registeruser(
-        testdataforregistration.firstname,
-        testdataforregistration.lastname,
-        testdataforregistration.address,
-        testdataforregistration.city,
-        testdataforregistration.state,
-        testdataforregistration.zipcode,
-        testdataforregistration.phonenumber,
-        testdataforregistration.ssn,
-        testdataforregistration.username,
-        testdataforregistration.password,
-        testdataforregistration.confirmpassword
+        testdataForregistration.firstname,
+        testdataForregistration.lastname,
+        testdataForregistration.address,
+        testdataForregistration.city,
+        testdataForregistration.state,
+        testdataForregistration.zipcode,
+        testdataForregistration.phonenumber,
+        testdataForregistration.ssn,
+        testdataForregistration.username,
+        testdataForregistration.password,
+        testdataForregistration.confirmpassword
     )
 
     await registerpage.ClickonRegisterbutton()
